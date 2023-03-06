@@ -22,7 +22,7 @@ import 'package:smash/eu/hydrologis/smash/maps/layers/core/onlinesourcespage.dar
 import 'package:smash/eu/hydrologis/smash/maps/layers/core/remotedbpage.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/geocaching.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/geoimage.dart';
-import 'package:smash/eu/hydrologis/smash/maps/layers/types/geopackage.dart';
+
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/gpx.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/shapefile.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/tiles.dart';

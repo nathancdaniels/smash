@@ -17,7 +17,7 @@ import 'package:latlong2/latlong.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:proj4dart/proj4dart.dart' as PROJ;
 import 'package:smash/eu/hydrologis/smash/maps/layers/core/layersource.dart';
-import 'package:smash/eu/hydrologis/smash/maps/layers/types/geopackage.dart';
+
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/mapsforge.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/mbtiles.dart';
 import 'package:smash/eu/hydrologis/smash/util/experimentals.dart';

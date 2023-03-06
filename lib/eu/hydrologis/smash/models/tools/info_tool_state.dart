@@ -12,7 +12,7 @@ import 'package:flutter/material.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/core/layermanager.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/core/layersource.dart';
-import 'package:smash/eu/hydrologis/smash/maps/layers/types/geopackage.dart';
+
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/postgis.dart';
 import 'package:smash/eu/hydrologis/smash/models/tools/tools.dart';
 

@@ -14,7 +14,7 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/geocaching.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/geoimage.dart';
-import 'package:smash/eu/hydrologis/smash/maps/layers/types/geopackage.dart';
+
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/gpx.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/postgis.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/shapefile.dart';
