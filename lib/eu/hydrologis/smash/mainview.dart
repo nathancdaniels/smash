@@ -274,7 +274,7 @@ class MainViewWidgetState extends State<MainViewWidget>
                     Scaffold.of(context).openDrawer();
                   },
                   tooltip:
-                      MaterialLocalizations.of(context).openAppDrawerTooltip,
+                      Material.of(context).openAppDrawerTooltip,
                 );
               },
             ),

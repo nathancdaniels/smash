@@ -7,7 +7,7 @@
 import 'package:dart_hydrologis_db/dart_hydrologis_db.dart';
 import 'package:dart_jts/dart_jts.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_s/flutter_s.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:proj4dart/proj4dart.dart';
@@ -26,7 +26,7 @@ import 'package:smashlibs/com/hydrologis/flutterlibs/utils/logging.dart';
 import 'package:smashlibs/smashlibs.dart';
 import 'package:stack_trace/stack_trace.dart';
 
-//import 'package:flutter_gen/gen_l10n/smash_localization.dart';
+//import 'package:flutter_gen/gen_l10n/smash_.dart';
 
 const DOCATCHER = false;
 
@@ -73,10 +73,10 @@ class SmashApp extends StatelessWidget {
       //  locale: Locale('ja', 'JP'),
 
       // PRE GEN
-      // localizationsDelegates: [
-      //   AppLocalizations.delegate, // available after codegen
-      //   GlobalWidgetsLocalizations.delegate,
-      //   GlobalMaterialLocalizations.delegate,
+      // sDelegates: [
+      //   Apps.delegate, // available after codegen
+      //   GlobalWidgetss.delegate,
+      //   GlobalMaterial.delegate,
       // ],
       // supportedLocales: [
       //   const Locale('en', ''),
@@ -124,7 +124,7 @@ class _WelcomeWidgetState extends State<WelcomeWidget> {
 
   @override
   Widget build(BuildContext context) {
-    Localization.init(context);
+    .init(context);
     Widget widgetToLoad;
     if (_initFinished) {
       // load projects page

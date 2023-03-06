@@ -3,7 +3,7 @@ import 'dart:async';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_s/flutter_s.dart';
 import 'package:intl/intl.dart' as intl;
 
 import 'l10n_cs.dart';
@@ -20,14 +20,14 @@ import 'l10n_zh.dart';
 /// by `SL.of(context)`.
 ///
 /// Applications need to include `SL.delegate()` in their app's
-/// localizationDelegates list, and the locales they support in the app's
+/// Delegates list, and the locales they support in the app's
 /// supportedLocales list. For example:
 ///
 /// ```
 /// import 'generated/';
 ///
 /// return MaterialApp(
-///   localizationsDelegates: SL.localizationsDelegates,
+///   sDelegates: SL.sDelegates,
 ///   supportedLocales: SL.supportedLocales,
 ///   home: MyApplicationHome(),
 /// );
@@ -41,9 +41,9 @@ import 'l10n_zh.dart';
 /// ```
 /// dependencies:
 ///   # Internationalization support.
-///   flutter_localizations:
+///   flutter_s:
 ///     sdk: flutter
-///   intl: any # Use the pinned version from flutter_localizations
+///   intl: any # Use the pinned version from flutter_s
 ///
 ///   # rest of dependencies
 /// ```
@@ -60,9 +60,9 @@ import 'l10n_zh.dart';
 /// project’s Runner folder.
 ///
 /// Next, select the Information Property List item, select Add Item from the
-/// Editor menu, then select Localizations from the pop-up menu.
+/// Editor menu, then select s from the pop-up menu.
 ///
-/// Select and expand the newly-created Localizations item then, for each
+/// Select and expand the newly-created s item then, for each
 /// locale your application supports, add a new item and select the locale
 /// you wish to add from the pop-up menu in the Value field. This list should
 /// be consistent with the languages listed in the SL.supportedLocales
@@ -73,29 +73,29 @@ abstract class SL {
   final String localeName;
 
   static SL of(BuildContext context) {
-    return Localizations.of<SL>(context, SL)!;
+    return s.of<SL>(context, SL)!;
   }
 
-  static const LocalizationsDelegate<SL> delegate = _SLDelegate();
+  static const sDelegate<SL> delegate = _SLDelegate();
 
-  /// A list of this localizations delegate along with the default localizations
+  /// A list of this s delegate along with the default s
   /// delegates.
   ///
-  /// Returns a list of localizations delegates containing this delegate along with
-  /// GlobalMaterialLocalizations.delegate, GlobalCupertinoLocalizations.delegate,
-  /// and GlobalWidgetsLocalizations.delegate.
+  /// Returns a list of s delegates containing this delegate along with
+  /// GlobalMaterial.delegate, GlobalCupertinos.delegate,
+  /// and GlobalWidgetss.delegate.
   ///
   /// Additional delegates can be added by appending to this list in
   /// MaterialApp. This list does not have to be used at all if a custom list
   /// of delegates is preferred or required.
-  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates = <LocalizationsDelegate<dynamic>>[
+  static const List<sDelegate<dynamic>> sDelegates = <sDelegate<dynamic>>[
     delegate,
-    GlobalMaterialLocalizations.delegate,
-    GlobalCupertinoLocalizations.delegate,
-    GlobalWidgetsLocalizations.delegate,
+    GlobalMaterial.delegate,
+    GlobalCupertinos.delegate,
+    GlobalWidgetss.delegate,
   ];
 
-  /// A list of this localizations delegate's supported locales.
+  /// A list of this s delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
     Locale('cs'),
@@ -3087,7 +3087,7 @@ abstract class SL {
   String get form_smash_cantSaveImageDb;
 }
 
-class _SLDelegate extends LocalizationsDelegate<SL> {
+class _SLDelegate extends sDelegate<SL> {
   const _SLDelegate();
 
   @override
@@ -3139,7 +3139,7 @@ SL lookupSL(Locale locale) {
 
   throw FlutterError(
     'SL.delegate failed to load unsupported locale "$locale". This is likely '
-    'an issue with the localizations generation tool. Please file an issue '
+    'an issue with the s generation tool. Please file an issue '
     'on GitHub with a reproducible sample app and the gen-l10n configuration '
     'that was used.'
   );
