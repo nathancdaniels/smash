@@ -9,7 +9,7 @@ import 'package:dart_hydrologis_db/dart_hydrologis_db.dart';
 import 'package:dart_jts/dart_jts.dart';
 import 'package:dart_postgis/dart_postgis.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_geopackage/flutter_geopackage.dart';
+
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_map/plugin_api.dart';
 import 'package:provider/provider.dart';

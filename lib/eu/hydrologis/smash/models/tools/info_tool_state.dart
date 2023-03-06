@@ -8,7 +8,7 @@ import 'package:dart_hydrologis_db/dart_hydrologis_db.dart';
 import 'package:dart_jts/dart_jts.dart' hide Position;
 import 'package:dart_postgis/dart_postgis.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_geopackage/flutter_geopackage.dart';
+
 import 'package:latlong2/latlong.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/core/layermanager.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/core/layersource.dart';

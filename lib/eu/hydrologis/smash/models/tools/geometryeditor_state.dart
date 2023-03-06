@@ -9,7 +9,7 @@ import 'package:dart_jts/dart_jts.dart' hide Polygon;
 import 'package:dart_jts/dart_jts.dart' as JTS;
 import 'package:dart_postgis/dart_postgis.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_geopackage/flutter_geopackage.dart';
+
 import 'package:flutter_map/plugin_api.dart';
 import 'package:flutter_map_dragmarker/dragmarker.dart';
 import 'package:flutter_map_line_editor/polyeditor.dart';

@@ -135,7 +135,7 @@ class _WelcomeWidgetState extends State<WelcomeWidget> {
 
   @override
   Widget build(BuildContext context) {
-    Localization.init(context);
+    init(context);
     Widget widgetToLoad;
     if (_initFinished) {
       // load projects page

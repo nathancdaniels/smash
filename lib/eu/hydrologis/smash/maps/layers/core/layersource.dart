@@ -10,7 +10,7 @@ import 'dart:core';
 import 'package:dart_hydrologis_utils/dart_hydrologis_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_geopackage/flutter_geopackage.dart';
+
 import 'package:flutter_map/flutter_map.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/geocaching.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/geoimage.dart';
