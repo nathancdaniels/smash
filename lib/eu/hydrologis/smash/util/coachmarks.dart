@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:smashlibs/smashlibs.dart';
 import 'package:tutorial_coach_mark/tutorial_coach_mark.dart';
 
-class MainViewCoachMarks with Localization {
+class MainViewCoachMarks {
   GlobalKey simpleNotesButtonKey = GlobalKey();
   GlobalKey formsButtonKey = GlobalKey();
   GlobalKey logsButtonKey = GlobalKey();

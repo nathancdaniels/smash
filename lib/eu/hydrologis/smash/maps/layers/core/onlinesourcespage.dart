@@ -463,7 +463,7 @@ class AddTmsStepper extends StatefulWidget {
   _AddTmsStepperState createState() => _AddTmsStepperState();
 }
 
-class _AddTmsStepperState extends State<AddTmsStepper> with Localization {
+class _AddTmsStepperState extends State<AddTmsStepper> {
   GlobalKey<FormState> _formKey = new GlobalKey<FormState>();
   static TmsData tmsData = TmsData();
   late List<Step> steps;
@@ -761,7 +761,7 @@ class AddWmsStepper extends StatefulWidget {
   _AddWmsStepperState createState() => _AddWmsStepperState();
 }
 
-class _AddWmsStepperState extends State<AddWmsStepper> with Localization {
+class _AddWmsStepperState extends State<AddWmsStepper> {
   GlobalKey<FormState> _formKey = new GlobalKey<FormState>();
 
   late List<Step> steps;
