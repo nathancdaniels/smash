@@ -1,7 +1,7 @@
 
 
 
-import 'l10n.dart';
+import '';
 
 /// The translations for English (`en`).
 class SLEn extends SL {

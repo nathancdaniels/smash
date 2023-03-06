@@ -12,7 +12,7 @@ import 'package:smash/eu/hydrologis/smash/mainview_utils.dart';
 import 'package:smash/eu/hydrologis/smash/models/project_state.dart';
 import 'package:smash/eu/hydrologis/smash/widgets/log_list.dart';
 import 'package:smash/eu/hydrologis/smash/widgets/settings.dart';
-import 'package:smash/generated/l10n.dart';
+import 'package:smash/generated/';
 import 'package:smashlibs/com/hydrologis/flutterlibs/utils/logging.dart';
 import 'package:smashlibs/smashlibs.dart';
 

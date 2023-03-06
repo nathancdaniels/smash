@@ -24,7 +24,7 @@ import 'l10n_zh.dart';
 /// supportedLocales list. For example:
 ///
 /// ```
-/// import 'generated/l10n.dart';
+/// import 'generated/';
 ///
 /// return MaterialApp(
 ///   localizationsDelegates: SL.localizationsDelegates,

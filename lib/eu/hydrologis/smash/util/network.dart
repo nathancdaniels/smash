@@ -11,7 +11,7 @@ import 'package:flutter/material.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/core/layermanager.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/mapsforge.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/tiles.dart';
-import 'package:smash/generated/l10n.dart';
+import 'package:smash/generated/';
 import 'package:smashlibs/com/hydrologis/flutterlibs/utils/logging.dart';
 import 'package:smashlibs/smashlibs.dart';
 

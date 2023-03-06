@@ -1,7 +1,7 @@
 
 
 
-import 'l10n.dart';
+import '';
 
 /// The translations for Norwegian Bokmål (`nb`).
 class SLNb extends SL {

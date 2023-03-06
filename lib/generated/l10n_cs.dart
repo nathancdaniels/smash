@@ -1,7 +1,7 @@
 
 
 
-import 'l10n.dart';
+import '';
 
 /// The translations for Czech (`cs`).
 class SLCs extends SL {

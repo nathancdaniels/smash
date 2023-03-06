@@ -22,14 +22,11 @@ import 'package:smash/eu/hydrologis/smash/models/tools/info_tool_state.dart';
 import 'package:smash/eu/hydrologis/smash/models/tools/ruler_state.dart';
 import 'package:smash/eu/hydrologis/smash/project/projects_view.dart';
 import 'package:smash/eu/hydrologis/smash/util/fence.dart';
-import 'package:smash_import_export_plugins/generated/l10n.dart';
 import 'package:smashlibs/com/hydrologis/flutterlibs/utils/logging.dart';
-import 'package:smashlibs/generated/l10n.dart';
 import 'package:smashlibs/smashlibs.dart';
 import 'package:stack_trace/stack_trace.dart';
 
 //import 'package:flutter_gen/gen_l10n/smash_localization.dart';
-import 'generated/l10n.dart';
 
 const DOCATCHER = false;
 

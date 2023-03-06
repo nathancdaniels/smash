@@ -25,7 +25,7 @@ import 'package:smash/eu/hydrologis/smash/models/tools/info_tool_state.dart';
 import 'package:smash/eu/hydrologis/smash/models/tools/ruler_state.dart';
 import 'package:smash/eu/hydrologis/smash/models/tools/tools.dart';
 import 'package:smash/eu/hydrologis/smash/util/fence.dart';
-import 'package:smash/generated/l10n.dart';
+import 'package:smash/generated/';
 import 'package:smashlibs/smashlibs.dart';
 
 class BottomToolsBar extends StatefulWidget {

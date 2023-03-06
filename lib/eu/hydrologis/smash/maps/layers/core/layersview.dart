@@ -27,7 +27,7 @@ import 'package:smash/eu/hydrologis/smash/maps/layers/types/gpx.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/shapefile.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/tiles.dart';
 import 'package:smash/eu/hydrologis/smash/models/map_state.dart';
-import 'package:smash/generated/l10n.dart';
+import 'package:smash/generated/';
 import 'package:smashlibs/smashlibs.dart';
 
 class LayersPage extends StatefulWidget {
