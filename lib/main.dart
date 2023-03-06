@@ -13,7 +13,6 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:proj4dart/proj4dart.dart';
 import 'package:provider/provider.dart';
 import 'package:smash/eu/hydrologis/smash/gps/gps.dart';
-import 'package:smash/eu/hydrologis/smash/l10n/localization.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/core/layermanager.dart';
 import 'package:smash/eu/hydrologis/smash/models/map_state.dart';
 import 'package:smash/eu/hydrologis/smash/models/mapbuilder.dart';
@@ -29,7 +28,7 @@ import 'package:smashlibs/generated/l10n.dart';
 import 'package:smashlibs/smashlibs.dart';
 import 'package:stack_trace/stack_trace.dart';
 
-//import 'package:flutter_gen/gen_l10n/smash_localization.dart';
+//
 import 'generated/l10n.dart';
 
 const DOCATCHER = false;

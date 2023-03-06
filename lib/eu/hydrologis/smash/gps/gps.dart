@@ -18,7 +18,6 @@ import 'package:geodesy/geodesy.dart' as GEOD;
 import 'package:latlong2/latlong.dart';
 import 'package:smash/eu/hydrologis/smash/gps/filters.dart';
 import 'package:smash/eu/hydrologis/smash/gps/testlog.dart';
-import 'package:smash/eu/hydrologis/smash/l10n/localization.dart';
 import 'package:smash/eu/hydrologis/smash/models/project_state.dart';
 import 'package:smash/eu/hydrologis/smash/util/fence.dart';
 import 'package:smashlibs/com/hydrologis/flutterlibs/utils/logging.dart';
