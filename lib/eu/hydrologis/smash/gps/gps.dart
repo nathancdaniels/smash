@@ -118,7 +118,7 @@ abstract class GpsLoggingHandler {
 /// * handle the GPS logging
 ///
 @pragma('vm:entry-point')
-class GpsHandler with Localization {
+class GpsHandler {
   static const GPS_FORCED_OFF_KEY = "GPS_FORCED_OFF";
   static const String _isolateName = "LocatorIsolate";
   ReceivePort? port;
