@@ -10,7 +10,7 @@ import 'package:material_design_icons_flutter/material_design_icons_flutter.dart
 import 'package:smash/eu/hydrologis/smash/maps/layers/core/layersource.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/tiles.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/wms.dart';
-import 'package:smash/generated/';
+
 import 'package:smashlibs/smashlibs.dart';
 
 class OnlineSourcesPage extends StatefulWidget {

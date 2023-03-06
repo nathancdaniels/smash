@@ -20,7 +20,7 @@ import 'package:smash/eu/hydrologis/smash/maps/plugins/center_cross_plugin.dart'
 import 'package:smash/eu/hydrologis/smash/maps/plugins/pluginshandler.dart';
 import 'package:smash/eu/hydrologis/smash/models/mapbuilder.dart';
 import 'package:smash/eu/hydrologis/smash/models/project_state.dart';
-import 'package:smash/generated/';
+
 import 'package:smashlibs/com/hydrologis/flutterlibs/utils/logging.dart';
 import 'package:smashlibs/smashlibs.dart';
 

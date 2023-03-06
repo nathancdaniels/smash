@@ -20,7 +20,7 @@ import 'package:smash/eu/hydrologis/smash/models/map_state.dart';
 import 'package:smash/eu/hydrologis/smash/models/project_state.dart';
 import 'package:smash/eu/hydrologis/smash/project/project_database.dart';
 import 'package:smash/eu/hydrologis/smash/widgets/note_properties.dart';
-import 'package:smash/generated/';
+
 import 'package:smashlibs/smashlibs.dart';
 
 /// The notes list widget.

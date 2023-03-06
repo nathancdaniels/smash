@@ -21,7 +21,7 @@ import 'package:smash/eu/hydrologis/smash/maps/layers/types/geopackage.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/mapsforge.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/mbtiles.dart';
 import 'package:smash/eu/hydrologis/smash/util/experimentals.dart';
-import 'package:smash/generated/';
+
 import 'package:smashlibs/com/hydrologis/flutterlibs/utils/logging.dart';
 import 'package:smashlibs/smashlibs.dart';
 

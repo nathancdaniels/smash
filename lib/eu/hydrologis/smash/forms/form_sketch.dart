@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:painter/painter.dart';
-import 'package:smash/generated/';
+
 import 'package:smashlibs/smashlibs.dart';
 
 class SketchPage extends StatefulWidget {

@@ -14,7 +14,7 @@ import 'package:provider/provider.dart';
 import 'package:smash/eu/hydrologis/smash/gps/gps.dart';
 import 'package:smash/eu/hydrologis/smash/mainview_utils.dart';
 import 'package:smash/eu/hydrologis/smash/models/map_state.dart';
-import 'package:smash/generated/';
+
 import 'package:smashlibs/smashlibs.dart';
 
 /// Class to hold the state of the GPS info button, updated by the gps state notifier.
