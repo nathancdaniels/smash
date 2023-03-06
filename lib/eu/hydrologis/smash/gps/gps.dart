@@ -18,6 +18,7 @@ import 'package:geodesy/geodesy.dart' as GEOD;
 import 'package:latlong2/latlong.dart';
 import 'package:smash/eu/hydrologis/smash/gps/filters.dart';
 import 'package:smash/eu/hydrologis/smash/gps/testlog.dart';
+import 'package:smash/eu/hydrologis/smash/l10n/localization.dart';
 import 'package:smash/eu/hydrologis/smash/models/project_state.dart';
 import 'package:smash/eu/hydrologis/smash/util/fence.dart';
 import 'package:smashlibs/com/hydrologis/flutterlibs/utils/logging.dart';
@@ -118,7 +119,7 @@ abstract class GpsLoggingHandler {
 /// * handle the GPS logging
 ///
 @pragma('vm:entry-point')
-class GpsHandler {
+class GpsHandler with Localization {
   static const GPS_FORCED_OFF_KEY = "GPS_FORCED_OFF";
   static const String _isolateName = "LocatorIsolate";
   ReceivePort? port;

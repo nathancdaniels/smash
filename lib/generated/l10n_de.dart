@@ -1,7 +1,4 @@
-
-
-
-import '';
+import 'l10n.dart';
 
 /// The translations for German (`de`).
 class SLDe extends SL {

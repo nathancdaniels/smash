@@ -51,7 +51,7 @@ import 'package:smash/eu/hydrologis/smash/widgets/note_list.dart';
 import 'package:smash/eu/hydrologis/smash/widgets/note_properties.dart';
 import 'package:smash/eu/hydrologis/smash/widgets/settings.dart';
 import 'package:smash/eu/hydrologis/smash/widgets/toolbar_tools.dart';
-
+import 'package:smash/generated/l10n.dart';
 import 'package:smashlibs/com/hydrologis/flutterlibs/utils/logging.dart';
 import 'package:smashlibs/smashlibs.dart';
 
@@ -274,7 +274,7 @@ class MainViewWidgetState extends State<MainViewWidget>
                     Scaffold.of(context).openDrawer();
                   },
                   tooltip:
-                      Material.of(context).openAppDrawerTooltip,
+                      MaterialLocalizations.of(context).openAppDrawerTooltip,
                 );
               },
             ),

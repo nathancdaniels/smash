@@ -1,7 +1,4 @@
-
-
-
-import '';
+import 'l10n.dart';
 
 /// The translations for French (`fr`).
 class SLFr extends SL {

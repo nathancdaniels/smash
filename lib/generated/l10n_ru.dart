@@ -1,7 +1,4 @@
-
-
-
-import '';
+import 'l10n.dart';
 
 /// The translations for Russian (`ru`).
 class SLRu extends SL {

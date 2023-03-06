@@ -1,7 +1,4 @@
-
-
-
-import '';
+import 'l10n.dart';
 
 /// The translations for Italian (`it`).
 class SLIt extends SL {

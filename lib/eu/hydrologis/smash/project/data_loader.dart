@@ -26,7 +26,7 @@ import 'package:smash/eu/hydrologis/smash/util/elevcolor.dart';
 import 'package:smash/eu/hydrologis/smash/util/urls.dart';
 import 'package:smash/eu/hydrologis/smash/widgets/log_properties.dart';
 import 'package:smash/eu/hydrologis/smash/widgets/note_properties.dart';
-
+import 'package:smash/generated/l10n.dart';
 import 'package:smashlibs/smashlibs.dart';
 
 class DataLoaderUtilities {

@@ -1,7 +1,4 @@
-
-
-
-import '';
+import 'l10n.dart';
 
 /// The translations for Chinese (`zh`).
 class SLZh extends SL {

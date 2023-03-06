@@ -12,7 +12,7 @@ import 'package:smash/eu/hydrologis/smash/maps/plugins/feature_info_plugin.dart'
 import 'package:smash/eu/hydrologis/smash/models/project_state.dart';
 import 'package:provider/provider.dart';
 import 'package:smash/eu/hydrologis/smash/project/images.dart';
-
+import 'package:smash/generated/l10n.dart';
 import 'package:smashlibs/smashlibs.dart';
 
 /// Form utilities for smash (not web)

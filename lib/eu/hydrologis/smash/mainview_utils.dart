@@ -27,7 +27,7 @@ import 'package:smash/eu/hydrologis/smash/util/network.dart';
 import 'package:smash/eu/hydrologis/smash/util/urls.dart';
 import 'package:smash/eu/hydrologis/smash/widgets/about.dart';
 import 'package:smash/eu/hydrologis/smash/widgets/settings.dart';
-
+import 'package:smash/generated/l10n.dart';
 import 'package:smashlibs/smashlibs.dart';
 import 'package:smash_import_export_plugins/smash_import_export_plugins.dart';
 import 'package:url_launcher/url_launcher.dart';

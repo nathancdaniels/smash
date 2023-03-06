@@ -11,7 +11,7 @@ import 'package:flutter/material.dart';
 import 'package:geocoding/geocoding.dart' as GC;
 import 'package:provider/provider.dart';
 import 'package:smash/eu/hydrologis/smash/models/map_state.dart';
-
+import 'package:smash/generated/l10n.dart';
 import 'package:smashlibs/com/hydrologis/flutterlibs/utils/logging.dart';
 /*
  * Copyright (c) 2019-2020. Antonello Andrea (www.hydrologis.com). All rights reserved.

@@ -7,10 +7,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_map/plugin_api.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
+import 'package:smash/eu/hydrologis/smash/l10n/localization.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/core/layersource.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/tiles.dart';
 import 'package:smash/eu/hydrologis/smash/maps/layers/types/wms.dart';
-
+import 'package:smash/generated/l10n.dart';
 import 'package:smashlibs/smashlibs.dart';
 
 class OnlineSourcesPage extends StatefulWidget {
@@ -463,7 +464,7 @@ class AddTmsStepper extends StatefulWidget {
   _AddTmsStepperState createState() => _AddTmsStepperState();
 }
 
-class _AddTmsStepperState extends State<AddTmsStepper> {
+class _AddTmsStepperState extends State<AddTmsStepper> with Localization {
   GlobalKey<FormState> _formKey = new GlobalKey<FormState>();
   static TmsData tmsData = TmsData();
   late List<Step> steps;
@@ -761,7 +762,7 @@ class AddWmsStepper extends StatefulWidget {
   _AddWmsStepperState createState() => _AddWmsStepperState();
 }
 
-class _AddWmsStepperState extends State<AddWmsStepper> {
+class _AddWmsStepperState extends State<AddWmsStepper> with Localization {
   GlobalKey<FormState> _formKey = new GlobalKey<FormState>();
 
   late List<Step> steps;

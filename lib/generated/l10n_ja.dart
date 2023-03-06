@@ -1,7 +1,4 @@
-
-
-
-import '';
+import 'l10n.dart';
 
 /// The translations for Japanese (`ja`).
 class SLJa extends SL {

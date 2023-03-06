@@ -12,7 +12,7 @@ import 'package:provider/provider.dart';
 import 'package:smash/eu/hydrologis/smash/gps/gps.dart';
 import 'package:smash/eu/hydrologis/smash/mainview.dart';
 import 'package:smash/eu/hydrologis/smash/models/project_state.dart';
-
+import 'package:smash/generated/l10n.dart';
 import 'package:smashlibs/smashlibs.dart';
 
 class ProjectView extends StatelessWidget {
