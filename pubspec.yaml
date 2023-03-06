@@ -55,7 +55,7 @@ dependencies:
   #  url: https://github.com/moovida/dart_hydrologis_db.git
 
 
-  
+
   dart_postgis: ^0.3.1
     # path: /home/hydrologis/development/SMASH/dart_postgis/
   # git:
